@@ -1,4 +1,7 @@
-HTML Fundamentals: 
+<!-- HTML Fundamentals: 
+
+
+
 0. Document Object Model (DOM) Tree
                  document node:
                  <document> 
@@ -341,4 +344,4 @@ text node:                      |
 
 
 8. HTML Accessibility  
-- https://caniuse.com/
+- https://caniuse.com/ -->
