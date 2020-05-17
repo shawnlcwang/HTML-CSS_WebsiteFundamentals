@@ -1,0 +1,100 @@
+<!-- HTML 4.01 Strict -->
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd"> -->
+
+<!-- HTML5 & beyond -->
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <!-- set viewport relative sizez based on the media query -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- search engines use: title/description/content -->
+        <meta name="description" content="HTML fundamentals">
+        <meta name="author" content="Shawn Wang">
+        <title>HTML Fundamentals</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- <script>
+            alert("Hello JavaScript"); 
+        </script> -->
+    </head>
+    <body>
+        <!-- different lines tokens with markups
+        <p id="p2" class="lead">HTML Fundamentals</p> <p id="p1">by Shawn Wang</p>
+        <-- same line tokens without markups
+        one 
+        two
+        three -->
+        <header>
+        <!-- <div id="header"> -->
+            <!-- <img style="float:left" src="./img/wired-brain-coffee-logo-250.png" 
+                alt="Wired Brain Coffee Logo" height="150px" width="150px"/> -->
+            <!-- <a rel>: browser security measure -->
+            <img style="float:left" src="./img/wired-brain-coffee-logo.png" 
+                alt="Wired Brain Coffee Logo" 
+                srcset="./img/wired-brain-coffee-logo.png 500w, ./img/wired-brain-coffee-logo-250.png 250w"
+                sizes="(max-width:500px) 25vw, 50vw"
+                />
+            <!-- <picture style="float:left">
+                <source type="image/jpeg" srcset="./img/wired-brain-coffee-logo-250.jpg 250w, ./img/wired-brain-coffee-logo.jpg 500w" 
+                    sizes="(max-width:500px) 15vw, 25vw"/>
+                <source type="image/png" srcset="./img/wired-brain-coffee-logo-250.png 250w, ./img/wired-brain-coffee-logo.png 500w" 
+                    sizes="(max-width:500px) 15vw, 25vw"/>
+                <img src="wired-brain-coffee-logo.png" alt="Wired Brain Coffee Logo"/>
+            </picture> -->
+            <div style="float:left; margin-left:15px" >
+                <a href="https://pluralsight.com/" target="_blank" rel="noreferrer noopener">
+                    <h1>Wired Brain Coffee</h1>
+                    <h4>Coffee to keep your bain wired</h4>
+                </a>
+            </div>
+            <div style="clear:both"></div>
+            <nav>
+                <ul>
+                    <li><a href="./content/recipies.html">Recipes</a></li>
+                    <li><a href="./content/recipies.html#brownies">Brownies Recipes</a></li>
+                    <li><a href="./content/nutrition.html">Nutrition Information</a></li>
+                </ul>
+            </nav>
+        <!-- </div> -->
+        </header>
+
+        <article title="Wired Brain Coffee">
+        <!-- <div id="section"> -->
+            <section id="main">
+            <!-- <div id="article"> -->
+                At Wired Brain Coffee, we believe that coffee can be the fuel your active brain needs. 
+                And we want you to believe it too.
+                <br />
+                <p>Coffee has <span class="fact">long been known</span> to provide a boost to brain activity and increase blood flow.</p> 
+                <!-- And we want you to believe it too. -->
+                <p>Another dubious statement about coffee to try and sell it.</p>
+            <!-- </div> -->
+            </section>
+
+            <section id="testmonials">
+            <!-- <div id="testmonials"> -->
+                <h4>Testmonials</h4>
+                <hr />
+                <blockquote cite="http://www.wiredbraincoffee.com/testimonials/test1.html"><abbr title="Wired Brain">WB</abbr> coffee makes my brain feel like it was on fire!</blockquote>
+                <cite>Brenda &lt;Hoboken, NJ&gt;</cite>
+                
+                <p>
+                    <br />
+                    <q>I'm productive<sup>3</sup> when I drink this coffee!</q>
+                    &nbsp; <br />
+                    <cite>Jamal &lt;Chicago, IL&gt;</cite>
+                </p>
+            <!-- </div> -->
+            </section>
+        <!-- </div> -->
+        </article>
+
+        <footer>
+        <!-- <div id="footer"> -->
+            &copy; Shawn Wang 2020
+        <!-- </div> -->
+        </footer>
+    </body>
+</html>
