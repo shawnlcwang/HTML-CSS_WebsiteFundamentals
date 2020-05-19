@@ -2,21 +2,21 @@ HTML Fundamentals:
 
 
 0. Document Object Model (DOM) Tree
-                 document node:
-                 <document> 
-                    |
-                root element node:
-                  <html>
-     _______________|_______________________________
-    |                                               |
-element node:                                   element node:       
-  <head>                                          <body>
-    |                                               |
-element node:                                   element node:    
-  <title>                                         <div>
-    |                            ___________________|____________
-text node:                      |
-  "..."                           
+                                                document node:
+                                                <document> 
+                                                    |
+                                            root element node:
+                                                <html>
+                    ________________________________|___________________________________________
+                   |                                                                            |
+                element node:                                                               element node:       
+                <head>                                                                      <body>
+                    |                                                                           |
+                element node:                                               element node:text/link/list/table/media/form(block/inline + semantic/nonsemantic)
+  <title>|<meta>|<link>|<script>|<style>|<base>                                                 |                                        
+                    |                                                       <main>|<header>|<nav>|<section>|<article>|<aside>|<details>|<figure>|<footer>
+            [global + specific attributes]                                                      |
+                                                                                    [global + specific attributes] 
 
 
 
@@ -66,7 +66,7 @@ text node:                      |
         - link: 
             > linking to documents (sourced anchor)
             > linking within documents (targeted anchor)
-        - list
+        - list:
             > unordered list (modern list document format implication) 
             > ordered list (modern list document format implication) 
             > description list (modern list document format implication)
@@ -204,8 +204,7 @@ text node:                      |
         - document content type: <a href="..." type="...">
         - target link open: <a href="..." target="_self/_blank/_parent/_top">
         - links security measure: <a href="..." rel="noreferrer noopener">
-        > 
-
+        
 
 
 4. <html><body> List </body></html>
